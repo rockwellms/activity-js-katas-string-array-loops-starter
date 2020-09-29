@@ -9,3 +9,15 @@
 */
 
 // YOUR CODE HERE
+let mountainHeights = [100, 200, 80, 675, 450];
+let smallest = 0;
+
+while (smallest < mountainHeights.length) {
+   if function myFunction() {
+    mountainHeights.sort(function (a, b) {
+      return a - b;
+    });
+    console.log("mountains");
+  }
+  smallest = smallest + 1;
+}

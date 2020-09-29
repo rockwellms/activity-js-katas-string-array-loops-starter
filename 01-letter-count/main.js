@@ -19,4 +19,33 @@
 
 */
 
-// YOUR CODE HERE
+let word = "supercalifragilisticexpialidocious";
+let letter = "i";
+// times = 0;
+count = 0;
+let letterCount = 0;
+
+while (count < word.length) {
+  if (letter === word[count]) {
+    //  console.log(count);
+    letterCount = letterCount + 1;
+  }
+  count = count + 1;
+}
+if (letterCount > 0) {
+  console.log(
+    "The letter " + letter + " exists " + letterCount + " times in this word!"
+  );
+} else {
+  console.log("Nope, that letter doesn't exist in my word!");
+}
+
+// while (count < word.length) {
+//   if (letter === word[count]) {
+//     times = times + 1;
+//   } else {
+//     console.log(times, "Letter I is NOT Found");
+//   }
+//   count = count + 1;
+// }
+// console.log(times, "letter I IS Found");
